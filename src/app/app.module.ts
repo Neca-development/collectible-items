@@ -14,6 +14,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AuthComponent } from './views/auth/auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -48,6 +49,7 @@ import { PortfolioComponent } from './views/portfolio/portfolio.component';
     MatInputModule,
     MatDividerModule,
     MatListModule,
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
